@@ -1,0 +1,176 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.menu, .logo {
+  flex: 1;
+}
+
+.right-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-items a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero section styling */
+.hero {
+  height: 600px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.hero-text {
+  padding: 0 50px; 
+  max-width: 280px;
+  position: relative;
+}
+
+.hero-right {
+  max-width: 487px; 
+  margin-left: auto; 
+  position:relative
+
+}
+
+button {
+  width: 170px;
+  height: 46px;
+  border: 2px solid;
+  background-color: transparent;
+  margin-top: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c3c1c1;
+}
+.hero-left2 {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  position: absolute;
+  margin-top: 100px;
+  left: 100px;
+  
+  
+}
+
+.hero-left2 img,
+.hero-left2 span {
+  margin: 0; 
+}
+
+.hero-right2 {
+  display: flex;
+  align-items: center;
+  margin-top: 30%;
+  position: absolute;
+  right:200px;
+ 
+}
+
+.hero-right2 img,
+.hero-right2 span {
+  margin: 0; 
+}
+
+
+/* Main section styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 64px;
+}
+
+.main-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-items div {
+  position: relative; 
+  width: 30%;
+  padding: 5px;
+  margin: 15px;
+  background-color: #f3f3f3;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.main-items img {
+  max-width: 50%;
+  align-items: center;
+  
+}
+.card-img{
+  margin-top: 50px;
+}
+.main-items h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 10px;
+  align-self: center;
+   
+  
+}
+
+.main-items span {
+  font-size: 10px;
+  color: #555;
+}
+
+.card {
+  position: relative;
+  height: 350px;
+}
+
+.vector {
+  position: absolute;
+  right: 3px;
+  top: 2px;
+}
+
+.main-items button {
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: transparent;
+  border: 2px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.main-items button:hover {
+  background-color: #c3c1c1;
+}
+
